@@ -1,0 +1,39 @@
+-- If you want pre insert you can change data.pre --> data.sql
+-- INSERT Sample Data
+--
+insert into `data` ( SOURCE, CODE_LIST_CODE, CODE, DISPLAY_VALUE, LONG_DESCRIPTION, FROM_DATE, TO_DATE, SORTING_PRIORITY)
+values ('ZIB', 'ZIB001', '271636001', 'Polsslag regelmatig', 'The long description is necessary', PARSEDATETIME('01-01-2019', 'dd-MM-yyyy'), null, 1);
+insert into `data` (SOURCE, CODE_LIST_CODE, CODE, DISPLAY_VALUE, LONG_DESCRIPTION, FROM_DATE, TO_DATE, SORTING_PRIORITY)
+values ('ZIB', 'ZIB001', '61086009', 'Polsslag onregelmatig', null, PARSEDATETIME('01-01-2019', 'dd-MM-yyyy'), null, 2);
+insert into `data` (SOURCE, CODE_LIST_CODE, CODE, DISPLAY_VALUE, LONG_DESCRIPTION, FROM_DATE, TO_DATE, SORTING_PRIORITY)
+values ('ZIB', 'ZIB001', 'Type 1', 'Losse harde keutels, zoals noten', null, PARSEDATETIME('01-01-2019', 'dd-MM-yyyy'), null, null);
+insert into `data` (SOURCE, CODE_LIST_CODE, CODE, DISPLAY_VALUE, LONG_DESCRIPTION, FROM_DATE, TO_DATE, SORTING_PRIORITY)
+values ('ZIB', 'ZIB002', 'Type 2', 'Als een worst, maar klonterig', null, PARSEDATETIME('01-01-2019', 'dd-MM-yyyy'), null, null);
+insert into `data` (SOURCE, CODE_LIST_CODE, CODE, DISPLAY_VALUE, LONG_DESCRIPTION, FROM_DATE, TO_DATE, SORTING_PRIORITY)
+values ('ZIB', 'ZIB002', 'Type 3', 'Als een worst, maar met barstjes aan de buitenkant', null, PARSEDATETIME('01-01-2019', 'dd-MM-yyyy'), null, null);
+insert into `data` (SOURCE, CODE_LIST_CODE, CODE, DISPLAY_VALUE, LONG_DESCRIPTION, FROM_DATE, TO_DATE, SORTING_PRIORITY)
+values ('ZIB', 'ZIB002', 'Type 4', 'Als een worst of slang, glad en zacht', null, PARSEDATETIME('01-01-2019', 'dd-MM-yyyy'), null, null);
+insert into `data` (SOURCE, CODE_LIST_CODE, CODE, DISPLAY_VALUE, LONG_DESCRIPTION, FROM_DATE, TO_DATE, SORTING_PRIORITY)
+values ('ZIB', 'ZIB002', 'Type 5', 'Zachte keutels met duidelijke randen', null, PARSEDATETIME('01-01-2019', 'dd-MM-yyyy'), null, null);
+insert into `data` (SOURCE, CODE_LIST_CODE, CODE, DISPLAY_VALUE, LONG_DESCRIPTION, FROM_DATE, TO_DATE, SORTING_PRIORITY)
+values ('ZIB', 'ZIB002', 'Type 6', 'Zachte stukjes met gehavende randen', null, PARSEDATETIME('01-01-2019', 'dd-MM-yyyy'), null, null);
+insert into `data` (SOURCE, CODE_LIST_CODE, CODE, DISPLAY_VALUE, LONG_DESCRIPTION, FROM_DATE, TO_DATE, SORTING_PRIORITY)
+values ('ZIB', 'ZIB002', 'Type 7', 'Helemaal vloeibaar', null, PARSEDATETIME('01-01-2019', 'dd-MM-yyyy'), null, null);
+insert into `data` (SOURCE, CODE_LIST_CODE, CODE, DISPLAY_VALUE, LONG_DESCRIPTION, FROM_DATE, TO_DATE, SORTING_PRIORITY)
+values ('ZIB', 'ZIB003', '307047009', 'Rectale temperatuur', null, PARSEDATETIME('01-01-2019', 'dd-MM-yyyy'), null, 1);
+insert into `data` (SOURCE, CODE_LIST_CODE, CODE, DISPLAY_VALUE, LONG_DESCRIPTION, FROM_DATE, TO_DATE, SORTING_PRIORITY)
+values ('ZIB', 'ZIB003', '415945006', 'Orale temperatuur (onder de tong)', null, PARSEDATETIME('01-01-2019', 'dd-MM-yyyy'), null, 2);
+insert into `data` (SOURCE, CODE_LIST_CODE, CODE, DISPLAY_VALUE, LONG_DESCRIPTION, FROM_DATE, TO_DATE, SORTING_PRIORITY)
+values ('ZIB', 'ZIB003', '415882003', 'Axillaire temperatuur (onder de oksel)', null, PARSEDATETIME('01-01-2019', 'dd-MM-yyyy'), null, null);
+insert into `data` (SOURCE, CODE_LIST_CODE, CODE, DISPLAY_VALUE, LONG_DESCRIPTION, FROM_DATE, TO_DATE, SORTING_PRIORITY)
+values ('ZIB', 'ZIB003', '415929009', 'Inguinale temperatuur (via de lies)', null, PARSEDATETIME('01-01-2019', 'dd-MM-yyyy'), null, null);
+insert into `data` (SOURCE, CODE_LIST_CODE, CODE, DISPLAY_VALUE, LONG_DESCRIPTION, FROM_DATE, TO_DATE, SORTING_PRIORITY)
+values ('ZIB', 'ZIB003', '415974002', 'Tympanische temperatuur', null, PARSEDATETIME('01-01-2019', 'dd-MM-yyyy'), null, 3);
+insert into `data` (SOURCE, CODE_LIST_CODE, CODE, DISPLAY_VALUE, LONG_DESCRIPTION, FROM_DATE, TO_DATE, SORTING_PRIORITY)
+values ('ZIB', 'ZIB003', '415922000', 'Temporale temperatuur', null, PARSEDATETIME('01-01-2019', 'dd-MM-yyyy'), null, null);
+insert into `data` (SOURCE, CODE_LIST_CODE, CODE, DISPLAY_VALUE, LONG_DESCRIPTION, FROM_DATE, TO_DATE, SORTING_PRIORITY)
+values ('ZIB', 'ZIB003', '364246006', 'Vaginale temperatuur', null, PARSEDATETIME('01-01-2019', 'dd-MM-yyyy'), null, null);
+insert into `data` (SOURCE, CODE_LIST_CODE, CODE, DISPLAY_VALUE, LONG_DESCRIPTION, FROM_DATE, TO_DATE, SORTING_PRIORITY)
+values ('ZIB', 'ZIB003', '698832009', 'Blaastemperatuur', null, PARSEDATETIME('01-01-2019', 'dd-MM-yyyy'), null, null);
+insert into `data` (SOURCE, CODE_LIST_CODE, CODE, DISPLAY_VALUE, LONG_DESCRIPTION, FROM_DATE, TO_DATE, SORTING_PRIORITY)
+values ('ZIB', 'ZIB003', '276885007', 'Kern temperatuur (invasief gemeten)', null, PARSEDATETIME('01-01-2019', 'dd-MM-yyyy'), null, null);
